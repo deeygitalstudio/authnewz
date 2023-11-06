@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/authnewz/static/css/main.ff50d723.css",
+    "main.js": "/authnewz/static/js/main.6edd33f4.js",
+    "static/media/news.jpg": "/authnewz/static/media/news.931f2aa72a782a88af27.jpg",
+    "index.html": "/authnewz/index.html",
+    "main.ff50d723.css.map": "/authnewz/static/css/main.ff50d723.css.map",
+    "main.6edd33f4.js.map": "/authnewz/static/js/main.6edd33f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff50d723.css",
+    "static/js/main.6edd33f4.js"
+  ]
+}
