@@ -10,8 +10,8 @@ let url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            setArticles(data.articles);
-            console.log(data.articles);
+         setNews(data.articles || data.results.articles || []);
+            console.log(data.articles || data.results.articles || []);
             console.log(process.env.REACT_APP_API_KEY);// Log the articles after setting state
         });
 }, [category]);
